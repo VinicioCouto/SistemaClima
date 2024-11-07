@@ -1,5 +1,33 @@
 
 
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.icon{
+    position: absolute;
+    z-index: 999;
+    margin-left: 730px;
+    font-size: 30px;
+    color: rgb(22, 110, 188);
+    cursor: pointer;\ZAZxa3w
+}
+
+h1{
+    color: rgb(41, 124, 197);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .imgbackgro{
     background-image: url(/img/imgindex.jpg);
     background-size: cover;
