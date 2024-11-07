@@ -1,0 +1,12 @@
+
+
+.imgbackgro{
+    background-image: url(/img/imgindex.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 850px;
+    height: 500px;
+    border-radius: 30px;
+    
+}
