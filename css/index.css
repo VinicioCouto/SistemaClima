@@ -80,7 +80,14 @@ main{
     color: rgb(13, 101, 152);
 }
 
-
 #imgclimacentral{
     width: 190px;
+}
+
+.climasdias{
+    position: absolute;
+    background-color: aliceblue;
+    margin-left: 285px;
+    margin-top: 30px;
+    width: 550px;
 }
