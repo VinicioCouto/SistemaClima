@@ -31,6 +31,10 @@ main{
     align-items: center;
 }
 
+section{
+    display: none;
+}
+
 .imgbackgro{
     background-image: url(/img/imgindex.jpg);
     background-size: cover;
@@ -109,6 +113,8 @@ main{
 
 .dias > h2{
     color: rgb(13, 101, 152);
+    font-size: 20px;
+    text-align: center;
 }
 
 .dias > h3{
@@ -117,6 +123,8 @@ main{
     margin: 0%;
     margin-top: 10px;
 }
+
+
 
 #imgclimadias{
     width: 60px;
@@ -160,10 +168,6 @@ main{
     border-radius: 19px;
     color: #1719b4;
     cursor: pointer;
-}
-
-main{
-    display: none;
 }
 
 

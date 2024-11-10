@@ -38,6 +38,40 @@ function exibirClima(data) {
     mainindex.style.display = 'block'
 }
 
+// Função para exibir dados do clima na página
+function exibirClima(data) {
+    // Seleciona os elementos HTML existentes
+    const estadoAtual = document.getElementById("estadoatual");
+    const temperatura = document.getElementById("temperatura");
+    const imgClimaCentral = document.getElementById("imgclimacentral");
+
+    // Atualiza os dados do clima principal
+    estadoAtual.textContent = data.weather[0].description;
+    temperatura.textContent = `${Math.round(data.main.temp)} ºC`;
+    
+    // Define o ícone do clima de acordo com o clima atual
+    const icon = data.weather[0].icon;
+    imgClimaCentral.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+    
+    // Exibe o elemento principal
+    mainindex.style.display = 'block';
+
+    // Adiciona os dados de umidade, temperatura mínima e máxima, e velocidade do vento
+    document.getElementById("dianome").textContent = "Umidade";
+    document.getElementById("temperaturadia").textContent = `${data.main.humidity}%`;
+    
+    const tempMin = Math.round(data.main.temp_min);
+    const tempMax = Math.round(data.main.temp_max);
+    const windSpeed = Math.round(data.wind.speed);
+
+    var climasDias = document.getElementById('climasdias')
+
+    // Atualiza os elementos HTML com os valores
+    document.getElementById("temperaturaminima").textContent = `${tempMin} ºC`;
+    document.getElementById("temperaturamaxima").textContent = `${tempMax} ºC`;
+    document.getElementById("ventovelocidade").textContent = `${windSpeed} km/h`;
+}
+
 // Adiciona o evento de clique ao botão "Pesquisar"
 document.getElementById("bottoncidade").addEventListener("click", () => {
     var div = document.getElementById('inptdiv')
