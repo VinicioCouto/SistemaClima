@@ -19,6 +19,7 @@ header{
     font-size: 30px;
     color: rgb(22, 110, 188);
     cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
 }
 
 h1{
@@ -119,4 +120,50 @@ main{
 
 #imgclimadias{
     width: 60px;
+}
+
+.boxcenter{
+    display: flex;
+    justify-content: center;
+}
+
+#inptdiv{
+    z-index: 999px;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin-top: -15px;
+    margin-left: -160px;
+    display: flex;
+    display: none;
+}
+
+#nomedacidade {
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid #1719b4;
+    border-radius: 19px;
+    color: #1719b4;
+}
+
+#nomedacidade::placeholder {
+    color: #1618ac92; 
+    opacity: 1;  
+}
+
+#bottoncidade{
+    margin-left: 5px;
+    background-color: white;
+    height: 40px;
+    border: 1px solid #1719b4;
+    border-radius: 19px;
+    color: #1719b4;
+    cursor: pointer;
+}
+
+
+.icon:hover {
+    color: rgb(0, 0, 0); 
+    transform: scale(1.2); 
 }
