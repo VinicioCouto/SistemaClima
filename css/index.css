@@ -3,14 +3,13 @@ body{
 }
 
 
-
-
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Playfair Display', serif;
 }
+
 
 .icon{
     position: absolute;
@@ -48,7 +47,7 @@ main{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(199, 200, 201, 0.731);
     width: 250px;
     margin-left: 30px;
     margin-top: 30px;
@@ -82,7 +81,8 @@ main{
 }
 
 #imgclimacentral{
-    width: 190px;
+    width: 200px;
+    margin-bottom: 0px;
 }
 
 .climasdias{
@@ -160,6 +160,10 @@ main{
     border-radius: 19px;
     color: #1719b4;
     cursor: pointer;
+}
+
+main{
+    display: none;
 }
 
 

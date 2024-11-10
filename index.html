@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1>Carregendo Cidade...</h1>
+        <h1 id="nometitulo">Carregendo Cidade...</h1>
         <div class="boxcenter">
 
             <div id="inptdiv">
@@ -24,13 +24,13 @@
         </div>
         <ion-icon class="icon" name="earth-outline" onclick="abridiv()"></ion-icon>
     </header>
-    <main>
+    <main id="main">
         <section>
             <div class="imgbackgro">
 
                 <div class="climaatual">
                     <h2 class="tituloclima">Hoje:</h2>
-                    <img id="imgclimacentral" src="/img/nublado.png" alt="">
+                    <img id="imgclimacentral" src="" alt="">
                     <h2 id="estadoatual">Parcialmente Nublado</h2>
                     <h2 id="temperatura">35 ºC</h2>
                 </div>
@@ -57,6 +57,8 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <script src="/js/divinpt.js"></script>
+
+    <script src="/js/Api.js"></script>
 
 </body>
 
