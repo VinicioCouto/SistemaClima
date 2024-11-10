@@ -85,12 +85,13 @@ main{
 }
 
 .climasdias{
+    background-color: aqua;
     position: absolute;
-    margin-left: 490px;
+    margin-left: 430px;
     margin-top: 30px;
-    width: 350px;
+    width: 410px;
     display: flex;
-    justify-content: end;
+    flex-wrap: wrap;
 }
 
 
@@ -101,10 +102,18 @@ main{
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
+    margin-left: 10px;
 }
 
 .dias > h2{
     color: rgb(13, 101, 152);
+}
+
+.dias > h3{
+    color: rgb(13, 101, 152);
+    font-size: 25px;
+    margin: 0%;
+    margin-top: 10px;
 }
 
 #imgclimadias{
