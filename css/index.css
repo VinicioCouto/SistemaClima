@@ -85,11 +85,10 @@ main{
 }
 
 .climasdias{
-    background-color: aqua;
     position: absolute;
-    margin-left: 460px;
+    margin-left: 420px;
     margin-top: 30px;
-    width: 270px;
+    width: 410px;
     display: flex;
     flex-wrap: wrap; 
     gap: 10px; 
